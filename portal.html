@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.css" />
     <!-- main css -->
     <link rel="stylesheet" href=" css/style.css" id="css-file" />
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <div class="loader-container">
@@ -71,7 +70,7 @@
                 ></a>
               </li>
               <li class="nav-item nav-ring">
-                <a class="nav-link" href="portfolio.html"
+                <a class="nav-link active" href="#"
                   >Portfolio
                   <div class="circle-ring"></div
                 ></a>
@@ -83,7 +82,7 @@
                 ></a>
               </li>
               <li class="nav-item nav-ring">
-                <a class="nav-link active"
+                <a class="nav-link" href="contact.html"
                   >Contact
                   <div class="circle-ring"></div
                 ></a>
@@ -94,193 +93,161 @@
       </nav>
       <!-- /header -->
       <!-- banner -->
-      <section id="contact">
+      <section id="portfolio-banner">
         <div class="container-fluid container-xxl">
-          <div class="row banner-contact">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="circle-bg"></div>
-              <div class="contact-text">
-                <h1 class="purple">Let's chat</h1>
-                <h2 class="white pb-20">Tell us about your project</h2>
-                <p>
-                  The team was small, but the vision of the group was big. It
-                  took just about a few months to engage more.
-                </p>
-              </div>
+          <div class="row portfolio">
+            <div class="col-lg-4">
+              <h3 class="purple">Discover our</h3>
+              <h3 class="yellow">Portfolio</h3>
+              <img
+                src="images/bg/Group 82.png"
+                alt=""
+                class="img-fluid port-bg-1"
+              />
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <span class="inner-circle"></span>
-              <div class="contact-form">
-                <form
-                  id="contact-form"
-                  name="contact"
-                  method="post"
-                  action="email/send-email.php"
-                >
-                  <h2>Contact us</h2>
-                  <div class="form-group">
-                    <label for="">Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      autocomplete="off"
-                      required
+            <div class="col-lg-7">
+              <img src="images/Group 56.svg" alt="" class="img-fluid" />
+              <img
+                src="images/bg/Group 81.png"
+                alt=""
+                class="img-fluid port-bg-2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /banner -->
+      <!-- portfolio card -->
+      <section class="mb-100">
+        <div class="container">
+          <div class="row portfolio-card">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <a href="portfolio.html">
+                <div class="card purple-card">
+                  <div class="content-card">
+                    <img
+                      src="images/icons/web-design.svg"
+                      alt=""
+                      class="img-fluid"
                     />
+                    <h4>Websites</h4>
+                    <div class="purple-circle"></div>
                   </div>
-                  <!-- end form-group -->
-
-                  <div class="form-group">
-                    <label for="">Email</label>
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      autocomplete="off"
-                      required
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <a href="branding.html">
+                <div class="card purple-card">
+                  <div class="content-card">
+                    <img
+                      src="images/icons/flyers.svg"
+                      alt=""
+                      class="img-fluid"
                     />
-                  </div>
-                  <!-- end form-group -->
-                  <div class="form-group">
-                    <label for="">Message</label>
-                    <textarea
-                      name="message"
-                      id="message"
-                      rows="4"
-                      autocomplete="off"
-                      required
-                    ></textarea>
-                  </div>
-                  <!-- end form-group -->
-                  <div class="form-group">
-                    <div
-                      class="g-recaptcha"
-                      id="gcaptcha"
-                      data-sitekey="6LeMb9MoAAAAAI1xrHGDupsMgmvVnh77Y0-0V8iP"
-                      required
-                    ></div>
-                  </div>
-                  <!-- end form-group -->
-                  <button
-                    id="submit"
-                    type="submit"
-                    name="submit"
-                    class="button"
-                  >
-                    <div class="wave-btn">
-                      <a href="" class="text-center">
-                        <span>Send</span>
-                        <div class="wave"></div>
-                      </a>
-                    </div>
-                  </button>
+                    <h4>Brandings</h4>
 
-                  <!-- end form-group -->
-                </form>
-                <!-- /form -->
-                <div class="form-group">
-                  <div
-                    id="success"
-                    class="alert alert-success wow fadeInUp"
-                    role="alert"
-                  >
-                    Your message was sent successfully! We will be in touch as
-                    soon as we can.
+                    <div class="purple-circle"></div>
                   </div>
-                  <!-- end success -->
-                  <div
-                    id="error"
-                    class="alert alert-danger wow fadeInUp"
-                    role="alert"
-                  >
-                    Something went wrong, try refreshing and submitting the form
-                    again.
-                  </div>
-                  <!-- end error -->
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <div class="card yellow-card">
+                <div class="content-card">
+                  <img
+                    src="images/icons/internet.svg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                  <h4>Portal</h4>
+                  <div class="yellow-circle"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- /banner -->
-
-      <!-- contact -->
-      <section id="index-contact">
-        <div class="container">
-          <div class="row circle-row mt-50 mb-50">
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-              <div class="icon-bg water-wave">
-                <img
-                  src="images/icons/vector3.svg"
-                  alt="phone-icon"
-                  class="img-fluid icon"
-                />
-              </div>
-              <h4 class="yellow fw-bold">CALL US</h4>
-              <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
-            </div>
-            <!--  -->
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-              <div class="icon-bg water-wave">
-                <img
-                  src="images/icons/Vector.svg"
-                  alt="map-icon"
-                  class="img-fluid icon"
-                />
-              </div>
-              <h4 class="yellow fw-bold">VISIT US</h4>
-              <p>
-                Door No.2, Thendral Nagar, <br />St.Thomas Road,Near Srinivasa
-                Nagar, <br />Tirunelveli – 627011.
-              </p>
-            </div>
-            <!--  -->
-            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-              <div class="icon-bg water-wave">
-                <img
-                  src="images/icons/vector2.svg"
-                  alt="mail-icon"
-                  class="img-fluid icon"
-                />
-              </div>
-              <h4 class="yellow fw-bold">MAIL US</h4>
-              <p>
-                <a href="mailto:hr@five2supports.com">hr@five2supports.com</a>
-              </p>
-            </div>
-            <!--  -->
-          </div>
-        </div>
-      </section>
-      <!-- /contact -->
-      <!-- map -->
-      <section>
+      <!-- /portfolio card -->
+      <!-- content -->
+      <section id="portal">
         <div class="container-fluid container-xxl">
-          <div id="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.763236854861!2d77.76166837461953!3d8.714019042659247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b040def36756c41%3A0xbc1bbb873ba825c4!2sFiveTwo+Supports+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1564729794812!5m2!1sen!2sin"
-              width="100%"
-              height="450"
-              style="border: 0"
-              allowfullscreen
-            ></iframe>
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <img
+                src="images/portfolio/portal/Group 83.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <h3 class="purple">Latest works</h3>
+              <h4 class="yellow">QR CODE SCANNER</h4>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <h4 class="yellow">CRM</h4>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <img
+                src="images/portfolio/portal/Group 84.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <img
+                src="images/portfolio/portal/Group 85.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <h4 class="yellow">SCAN NOW</h4>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+              <p class="my-3">
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <!-- /map -->
+      <!-- /content -->
       <!-- footer -->
-      <section id="footer" class="mt-100">
-        <img src="images/bg/Group 55.png" alt="pattern" class="img-fluid mask-4" />
+      <section id="footer">
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
-              <img src="images/Asset 20.png" alt="logo" class="img-fluid w-50" />
+              <img src="images/Asset 20.png" alt="" class="img-fluid w-50" />
               <p class="py-3 w-75 footer-para">
                 The goal is to explore various possibilities and solutions
                 before settling on a final design.
               </p>
             </div>
+
             <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
               <h4 class="yellow">Let's Connect</h4>
               <ul>
@@ -289,7 +256,7 @@
                   <div class="circle-ring"></div>
                 </div>
                 <div class="nav-ring">
-                  <li>Contact</li>
+                  <li><a href="contact.html">Contact</a></li>
                   <div class="circle-ring"></div>
                 </div>
               </ul>
@@ -300,7 +267,7 @@
                 <li>
                   <img
                     src="images/icons/download (2).svg"
-                    alt="mail-icon"
+                    alt=""
                     class="img-fluid"
                   />
                   <p>
@@ -312,13 +279,13 @@
                 <li>
                   <img
                     src="images/icons/download (1).svg"
-                    alt="phone-icon"
+                    alt=""
                     class="img-fluid"
                   />
                   <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
                 </li>
                 <li>
-                  <img src="images/icons/Vector.svg" alt="map-icon" class="img-fluid" />
+                  <img src="images/icons/Vector.svg" alt="" class="img-fluid" />
                   <p>
                     Door No.2, Thendral Nagar,<br />
                     St.Thomas Road,Near <br />
@@ -344,7 +311,7 @@
         </div>
       </section>
       <!-- /footer -->
- 
+    </div>
     <!-- /main container -->
 
     <!-- script files -->
@@ -355,9 +322,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact.form.min.js"></script>
-    <script src="js/jquery.form.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

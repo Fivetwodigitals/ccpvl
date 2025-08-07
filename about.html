@@ -1,490 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Basic Page Needs
-================================================== -->
-    <meta charset="utf-8" />
-    <title>Charis Communication Pvt Ltd</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>FiveTwo Digital Solutions</title>
+    <!-- FAVICON FILES -->
 
-    <!-- Mobile Specific Metas
-================================================== -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Charis Communication Pvt Ltd" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    <link href="ico/favicon.png" rel="shortcut icon" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <!-- spacing css -->
+    <link rel="stylesheet" href="css/rs-spacing.css" />
+    <!-- boostrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-
-    <!-- Favicon
-================================================== -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-
-    <!-- CSS
-================================================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
-    <!-- Animation -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
-    <!-- slick Carousel -->
-    <link rel="stylesheet" href="plugins/slick/slick.css" />
-    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
-    <!-- Colorbox -->
-    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
-    <!-- Template styles-->
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="  css/style.css" id="css-file" id="css-file" />
   </head>
-
   <body>
-    <div class="body-inner">
-      <div id="top-bar" class="top-bar">
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+    <!-- main container -->
+    <div class="container-fluid full-content">
+      <!-- header -->
+      <nav class="navbar navbar-expand-lg navbar-expand-md">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-10 col-md-10">
-              <ul class="top-info text-center text-md-left">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="index.html"
+                  >Home
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+
+              <li class="nav-item nav-ring">
+                <a class="nav-link active"
+                  >About
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="services.html"
+                  >Services
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="portfolio.html"
+                  >Portfolio
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="career.html"
+                  >Career
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="contact.html"
+                  >Contact
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /header -->
+      <!-- banner -->
+      <section id="about">
+        <div class="container-fluid container-xxl">
+          <div class="row banner-about">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="circle-bg"></div>
+              <div class="abt-ban-txt">
+                <h2 class="white">Everything You need to know about</h2>
+                <div class="slider">
+                  <div class="slide-anim">
+                    <div class="slide slide1">Our Expertise</div>
+                    <div class="slide slide2">Our Company</div>
+                    <div class="slide slide3">Our Team</div>
+                    <div class="slide slide1">Our Expertise</div>
+                  </div>
+                </div>
+                <p>
+                  Five Two Digitals, established his IT wing in 2016 with a
+                  small team consisting of young talents, constructed the
+                  superior service provider of website design, development and
+                  digital marketing.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <span class="inner-circle"></span>
+              <img src="images/IMG3.png" alt="banner-img" class="img-fluid abt-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /banner -->
+      <!-- timeline -->
+      <section id="timeline">
+        <div class="container-fluid container-xxl">
+          <div class="vertical-line"></div>
+          <div class="row timeline-row mt-150">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="images/Group 40.svg" alt="boy-img" class="img-fluid" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="d-flex align-items-center">
+                <span class="line"></span>
+                <h6 class="m-0">Our team</h6>
+              </div>
+              <div class="animation-circle"></div>
+              <!-- <div id="motion-demo"></div> -->
+              <h2 class="purple">We believe in outcome than output</h2>
+              <p>
+                Bespoke software solutions tailored to meet your specific needs. Harness the power of the cloud to scale and innovate your business. Empower your organization with innovative digital solutions.
+              </p>
+              <p>
+                Crafting responsive, user-friendly web and mobile applications. Rigorous testing to ensure bug-free, high-performance software.
+              </p>
+            </div>
+          </div>
+          <img src="images/line.png" alt="line-img" class="img-fluid" />
+          <div class="row timeline-sec-row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <h4 class="purple">How we make a</h4>
+              <h2 class="yellow">difference</h2>
+              <p>
+                Tailored web solutions that are as unique as your brand. Engaging and responsive designs that leave a lasting impression. Boost your online business with seamless e-commerce integration. Create exceptional mobile experiences for iOS and Android. Elevate your online presence with our proven digital marketing 
+              </p>
+              <p>
+                Craft a comprehensive digital strategy tailored to your goals and objectives. Develop user-friendly mobile apps for iOS and Android platforms.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img src="images/Group 44.svg" alt="girl-img" class="img-fluid ps-5" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /timeline -->
+
+      <!-- join -->
+      <section class="mt-50">
+        <div class="container-fluid container-xxl">
+          <div class="row passion">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="passion-text">
+                <h2 class="purple">
+                  <span class="yellow">Join</span> our passionate team
+                </h2>
+                <p>
+                  We're more than just a company. We're a family of passionate
+                  individuals committed to providing digital solutions.
+                </p>
+                <p>
+                  We always looking for talented peoples, so let's work together
+                </p>
+                <div class="wave-btn">
+                  <a href="career.html" class="text-center">
+                    <span>Careers</span>
+                    <div class="wave"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12"></div>
+          </div>
+        </div>
+      </section>
+      <!-- join -->
+      <!-- footer -->
+      <section id="footer" class="mt-100">
+        <img src="images/bg/Group 55.png" alt="pattern" class="img-fluid mask-4" />
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <img src="images/Asset 20.png" alt="logo" class="img-fluid w-50" />
+              <p class="py-3 w-75 footer-para">
+                The goal is to explore various possibilities and solutions
+                before settling on a final design.
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Connect</h4>
+              <ul>
+                <div class="nav-ring">
+                  <li class="mb-3"><a href="career.html">Career</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+                <div class="nav-ring">
+                  <li><a href="contact.html">Contact</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Talk</h4>
+              <ul>
                 <li>
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p class="info-text">
-                    Charis Communication Pvt Ltd, Chennai - India
+                  <img
+                    src="images/icons/download (2).svg"
+                    alt="mail-icon"
+                    class="img-fluid"
+                  />
+                  <p>
+                    <a href="mailto:hr@five2supports.com"
+                      >hr@five2supports.com</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/icons/download (1).svg"
+                    alt="phone-icon"
+                    class="img-fluid"
+                  />
+                  <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
+                </li>
+                <li>
+                  <img src="images/icons/Vector.svg" alt="map-icon" class="img-fluid" />
+                  <p>
+                    Door No.2, Thendral Nagar,<br />
+                    St.Thomas Road,Near <br />
+                    Srinivasa Nagar, <br />Tirunelveli – 627011.
                   </p>
                 </li>
               </ul>
             </div>
-            <!--/ Top info end -->
-          </div>
-          <!--/ Content row end -->
-        </div>
-        <!--/ Container end -->
-      </div>
-      <!--/ Topbar end -->
-      <!-- Header start -->
-      <header id="header" class="header-one">
-        <div class="bg-white">
-          <div class="container">
-            <div class="logo-area">
-              <div class="row align-items-center">
-                <div
-                  class="logo col-lg-5 text-center text-lg-left mb-3 mb-md-5 mb-lg-0"
-                >
-                  <a class="d-block" href="index.html">
-                    <img
-                      loading="lazy"
-                      src="images/logo.png"
-                      alt="Charis Communication"
-                    />
-                    <h1>Charis <span>Communication</span></h1>
-                  </a>
-                </div>
-                <!-- logo end -->
-
-                <div class="col-lg-7 header-right">
-                  <ul class="top-info-box">
-                    <li>
-                      <div class="info-box">
-                        <div class="info-box-content">
-                          <p class="info-box-title">Call Us</p>
-                          <p class="info-box-subtitle">
-                            <a href="callto:(+91) 44 46222777"
-                              >(+91) 44 46222777</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="last">
-                      <div class="info-box last">
-                        <div class="info-box-content">
-                          <p class="info-box-title">Email Us</p>
-                          <p class="info-box-subtitle">
-                            <a href="mailto:info@ccpvl.com">info@ccpvl.com</a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="header-get-a-quote">
-                      <a class="btn btn-primary" href="contact.html"
-                        >Get A Quote</a
-                      >
-                    </li>
-                  </ul>
-                  <!-- Ul end -->
-                </div>
-                <!-- header right end -->
-              </div>
-              <!-- logo area end -->
-            </div>
-            <!-- Row end -->
-          </div>
-          <!-- Container end -->
-        </div>
-
-        <div class="site-navigation">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse"
-                    aria-controls="navbar-collapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div id="navbar-collapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav mr-auto">
-                      <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                      </li>
-                      <li class="nav-item dropdown active">
-                        <a
-                          href="#"
-                          class="nav-link dropdown-toggle"
-                          data-toggle="dropdown"
-                          >About Us <i class="fa fa-angle-down"></i
-                        ></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="about.html">Who we are</a></li>
-                          <li>
-                            <a href="unique.html">What Makes us Unique</a>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="products.html" class="nav-link">Products</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <!--/ Col end -->
-            </div>
-            <!--/ Row end -->
-
-            <div class="nav-search">
-              <span id="search"><i class="fa fa-search"></i></span>
-            </div>
-            <!-- Search end -->
-
-            <div class="search-block" style="display: none">
-              <label for="search-field" class="w-100 mb-0">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="search-field"
-                  placeholder="Type what you want and enter"
-                />
-              </label>
-              <span class="search-close">&times;</span>
-            </div>
-            <!-- Site search end -->
-          </div>
-          <!--/ Container end -->
-        </div>
-        <!--/ Navigation end -->
-      </header>
-      <!--/ Header end -->
-      <div
-        id="banner-area"
-        class="banner-area"
-        style="background-image: url(images/banner/banner1.jpg)"
-      >
-        <div class="banner-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="banner-heading">
-                  <h1 class="banner-title">About</h1>
-                </div>
-              </div>
-              <!-- Col end -->
-            </div>
-            <!-- Row end -->
-          </div>
-          <!-- Container end -->
-        </div>
-        <!-- Banner text end -->
-      </div>
-      <!-- Banner area end -->
-
-      <section id="main-container" class="main-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="column-title">Who We Are</h3>
-              <p>
-                A company with impeccable efficiency and expertise, established
-                in 2012 and led by the vision to deliver an array of products
-                and services.
-              </p>
-              <blockquote>
-                <p>
-                  Charis Communication Pvt Ltd is intent on setting up a system
-                  of getting customers the products and services they require
-                </p>
-              </blockquote>
-              <p>
-                We engineer a way to make our customers' complex tasks simple,
-                successful, and sustainable. We comprise a mixed bag of
-                specialties in the conveyance of commercial and building
-                products and services.
-              </p>
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-6 mt-5 mt-lg-0">
-              <div id="page-slider" class="page-slider small-bg">
-                <div
-                  class="item"
-                  style="
-                    background-image: url(images/slider-pages/slide-page1.jpg);
-                  "
-                >
-                  <div class="container">
-                    <div class="box-slider-content">
-                      <div class="box-slider-text">
-                        <h2 class="box-slide-title">Leadership</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 1 end -->
-
-                <div
-                  class="item"
-                  style="
-                    background-image: url(images/slider-pages/slide-page2.jpg);
-                  "
-                >
-                  <div class="container">
-                    <div class="box-slider-content">
-                      <div class="box-slider-text">
-                        <h2 class="box-slide-title">Relationships</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 1 end -->
-
-                <div
-                  class="item"
-                  style="
-                    background-image: url(images/slider-pages/slide-page3.jpg);
-                  "
-                >
-                  <div class="container">
-                    <div class="box-slider-content">
-                      <div class="box-slider-text">
-                        <h2 class="box-slide-title">Performance</h2>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Item 1 end -->
-              </div>
-              <!-- Page slider end-->
-            </div>
-            <!-- Col end -->
-            <div id="mission" class="col-lg-12 mt-4">
-              <h3 class="column-title">Our Mission</h3>
-              <p>
-                Our mission and something we live by, each day is to build our
-                business by core values including competence, honesty &
-                integrity, professionalism, dedication, responsibility, and
-                accountability. Our reputation is built on trust from the
-                service we have offered to our customers and the ability to
-                guide them to the right product.And our vision is to offer
-                top-notch service and an extensive range of products delivered
-                when and where our customer needs them.
-              </p>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Social connect</h4>
+              <ul class="d-flex">
+                <li>
+                  <a
+                    href="https://instagram.com/five_2_supports?igshid=MzRlODBiNWFlZA=="
+                    target="_blank"
+                    ><i class="bi bi-instagram me-3"></i
+                  ></a>
+                </li>
+                <li><i class="bi bi-linkedin"></i></li>
+              </ul>
             </div>
           </div>
-          <!-- Content row end -->
         </div>
-        <!-- Container end -->
       </section>
-      <!-- Main container end -->
-
-      <footer id="footer" class="footer bg-overlay">
-        <div class="footer-main">
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-lg-4 col-md-6 footer-widget footer-about">
-                <h3 class="widget-title">About Us</h3>
-                <img
-                  loading="lazy"
-                  width="200px"
-                  class="footer-logo"
-                  src="images/footer-logo.png"
-                  alt="Charis Communication"
-                />
-                <p>
-                  Charis Communication Pvt Ltd is intent on setting up a system
-                  of getting customers the products and services they require.
-                </p>
-                <div class="footer-social">
-                  <ul>
-                    <li>
-                      <a
-                        title="Facebook"
-                        target="_blank"
-                        href="https://www.facebook.com/chariscommunication/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-facebook-f"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Twitter"
-                        target="_blank"
-                        href="https://twitter.com/charisasp"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-twitter"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Instagram"
-                        target="_blank"
-                        href="https://www.instagram.com/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-instagram"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Linkdin"
-                        target="_blank"
-                        href="https://www.linkedin.com/company/charis-communication-private-limited/about/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-linkedin"></i
-                        ></span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- Footer social end -->
-              </div>
-              <!-- Col end -->
-
-              <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-                <h3 class="widget-title">Get in Touch</h3>
-                <div class="working-hours">
-                  CHARIS COMMUNICATION PRIVATE LIMITED<br />
-                  No 838, 89 th Street, 13 th Sector, <br />KK Nagar, Chennai
-                  600 078,<br />Tamilnadu, India.<br />
-                  <br /><i class="fa fa-phone"></i> : +91 44 46222777<br /><i
-                    class="fa fa-envelope"
-                  ></i>
-                  : info@ccpvl.com
-                </div>
-              </div>
-              <!-- Col end -->
-
-              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-                <h3 class="widget-title">Services</h3>
-                <ul class="list-arrow">
-                  <li><a href="services.html">Hydraulics</a></li>
-                  <li><a href="services.html">Fiber Optics Cables</a></li>
-                  <li><a href="services.html">Pumps</a></li>
-                  <li>
-                    <a href="services.html">Electrical & Electronic Goods</a>
-                  </li>
-                  <li><a href="services.html">Industrial Goods</a></li>
-                  <li>
-                    <a href="services.html">Wastewater Treatment Plant</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Col end -->
-            </div>
-            <!-- Row end -->
-          </div>
-          <!-- Container end -->
-        </div>
-        <!-- Footer main end -->
-
-        <div class="copyright">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <div class="copyright-info text-center text-md-left">
-                  <span
-                    >Copyright &copy;
-                    <script>
-                      document.write(new Date().getFullYear());
-                    </script>
-                    , Charis Communication Pvt Ltd
-                  </span>
-                </div>
-              </div>
-            </div>
-            <!-- Row end -->
-
-            <div
-              id="back-to-top"
-              data-spy="affix"
-              data-offset-top="10"
-              class="back-to-top position-fixed"
-            >
-              <button class="btn btn-primary" title="Back to Top">
-                <i class="fa fa-angle-double-up"></i>
-              </button>
-            </div>
-          </div>
-          <!-- Container end -->
-        </div>
-        <!-- Copyright end -->
-      </footer>
-      <!-- Footer end -->
-
-      <!-- Javascript Files
-  ================================================== -->
-
-      <!-- initialize jQuery Library -->
-      <script src="plugins/jQuery/jquery.min.js"></script>
-      <!-- Bootstrap jQuery -->
-      <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
-      <!-- Slick Carousel -->
-      <script src="plugins/slick/slick.min.js"></script>
-      <script src="plugins/slick/slick-animation.min.js"></script>
-      <!-- Color box -->
-      <script src="plugins/colorbox/jquery.colorbox.js"></script>
-      <!-- shuffle -->
-      <script src="plugins/shuffle/shuffle.min.js" defer></script>
-
-      <!-- Google Map API Key-->
-      <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-        defer
-      ></script>
-      <!-- Google Map Plugin-->
-      <script src="plugins/google-map/map.js" defer></script>
-
-      <!-- Template custom -->
-      <script src="js/script.js"></script>
+      <!-- /footer -->
     </div>
-    <!-- Body inner end -->
+    <!-- /main container -->
+
+    <!-- script files -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

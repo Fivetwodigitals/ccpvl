@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>FiveTwo Digital Solutions</title>
+    <!-- FAVICON FILES -->
+
+    <link href="ico/favicon.png" rel="shortcut icon" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <!-- spacing css -->
+    <link rel="stylesheet" href="css/rs-spacing.css" />
+    <!-- boostrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" id="css-file" />
+  </head>
+  <body>
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+    <!-- main container -->
+    <div class="container-fluid full-content">
+      <!-- header -->
+      <nav class="navbar navbar-expand-lg navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="index.html"
+                  >Home
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="about.html"
+                  >About
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="services.html"
+                  >Services
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link active" href="#"
+                  >Portfolio
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="career.html"
+                  >Career
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="contact.html"
+                  >Contact
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /header -->
+      <!-- banner -->
+      <section id="portfolio-banner">
+        <div class="container-fluid container-xxl">
+          <div class="row portfolio">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3 class="purple">Discover our</h3>
+              <h3 class="yellow">Portfolio</h3>
+              <img
+                src="images/bg/Group 82.png"
+                alt="pattern"
+                class="img-fluid port-bg-1"
+              />
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12">
+              <img src="images/Group 56.svg" alt="" class="img-fluid" />
+              <img
+                src="images/bg/Group 81.png"
+                alt="portfolio"
+                class="img-fluid port-bg-2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /banner -->
+      <!-- portfolio tabs -->
+      <section>
+        <div class="container">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                <div class="portfolio-card">
+                  <div class="card tab-card">
+                    <div class="content-card">
+                      <img
+                        src="images/icons/web-design.svg"
+                        alt="web-design"
+                        class="img-fluid"
+                      />
+                      <h4>Websites</h4>
+                      
+                      <div class="tab-circle"></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="portfolio-span">Websites</span>
+              </button>
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                <div class="portfolio-card">
+                  <div class="card tab-card">
+                    <div class="content-card">
+                      <img
+                        src="images/icons/flyers.svg"
+                        alt="Brandings"
+                        class="img-fluid"
+                      />
+                      <h4>Brandings</h4>
+                      
+                      <div class="tab-circle"></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="portfolio-span">Brandings</span>
+              </button>
+              <button
+                class="nav-link"
+                id="nav-contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-contact"
+                type="button"
+                role="tab"
+                aria-controls="nav-contact"
+                aria-selected="false"
+              >
+                <div class="portfolio-card">
+                  <div class="card tab-card">
+                    <div class="content-card">
+                      <img
+                        src="images/icons/internet.svg"
+                        alt="portal"
+                        class="img-fluid"
+                      />
+                      <h4>Portal</h4>
+                      
+                      <div class="tab-circle"></div>
+                    </div>
+                  </div>
+                </div>
+                <span class="portfolio-span">Portal</span>
+              </button>
+            </div>
+          </nav>
+        </div>
+        <div class="container-fluid">
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+              tabindex="0"
+            >
+              <!-- works -->
+              <section>
+                <div class="container-fluid container-xxl mt-100">
+                  <!-- work -->
+                  <div class="row works-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h3 class="purple">Latest works</h3>
+                      <h4 class="yellow">Tritec tradings</h4>
+                      <p>
+                        We specialize in Oil Supply and render contract-based
+                        services and have been a major market player since our
+                        establishment in the year 1998.
+                      </p>
+                      <p>
+                        Ever since, we have been well known and renowned for our
+                        swift and fast supply of oil.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://tritectr.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Tritec Tradings</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 73.svg"
+                        alt="tritectr_Website"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <!-- work -->
+                  <div class="row works2-row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 74.svg"
+                        alt="gatewayips"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">ips</h4>
+                      <p>
+                        Gateway is a recognized world leading supplier of
+                        industrial products and manufacturing and process
+                        services to the oil and gas, offshore and offshore,
+                        mining, power and other industries.
+                      </p>
+                      <p>
+                        To captivate the Oil and Gas and other energy industries
+                        as a market leader and hold stature in the market.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="http://gatewayips.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Gateway IPS</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- work -->
+                  <div class="row works-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">Unitech limited</h4>
+                      <p>
+                        UNITECH Ltd. is a Company bundling oriental trade
+                        traditions comprising an outstanding business
+                        flexibility interlaced with best western professional
+                        standards and practices in provided services.
+                      </p>
+                      <p>
+                        Our team comprises highly qualified experts with wealth
+                        of experience obtained from biggest worldwide oilfield
+                        Projects, making cooperation with us remarkable.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="http://unitech.kz/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Unitech Limited</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 75.svg"
+                        alt="unitech"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- work -->
+                  <div class="row works2-row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 76.svg"
+                        alt="five2supports"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">Five two supports</h4>
+                      <p>
+                        A great team of procurement professionals with rich
+                        experience in Global procurement and logistics
+                      </p>
+                      <p>
+                        Our supply chain management team, which includes
+                        sourcing, logistics, and contracting specialists, works
+                        to ensure the highest standards of ethical conduct are
+                        maintained in their operations.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://five2supports.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Five Two Supports</span>
+                        </a>
+                      </div>
+                    </div>
+                    <img
+                      src="images/bg/portfolio-bg.svg"
+                      alt="pattern"
+                      class="img-fluid port-bg-3"
+                    />
+                  </div>
+                  <!-- work -->
+                  <div class="row works-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">epm</h4>
+                      <p>
+                        EPM is well known and established among the oil, gas,
+                        petrochemical and minerals processing industries, and is
+                        the most trusted engineering and project management
+                        partner.
+                      </p>
+                      <p>
+                        Quality, versatility, creativity and expertise are just
+                        the few facets that has distinguished us from our
+                        competitors and crowned our success.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://gatewayepm.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Gateway Engineering</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 77.svg"
+                        alt="gatewayepm"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <!-- work -->
+                  <div class="row works2-row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 78.svg"
+                        alt="gvcal"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">GVCAL</h4>
+                      <p>
+                        Gateway provides expertise, extensive product knowledge,
+                        after-sales service and on-time deliveries to even the
+                        most remote locations.
+                      </p>
+                      <p>
+                        Gateway prides itself on the ability to provide clients
+                        with the products and services they need, anywhere, any
+                        time and in the most cost-efficient way.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://www.gvcal.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Gateway Ventures</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- work -->
+
+                  <div class="row works-row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">Borsch</h4>
+                      <p>
+                        AASSI is Aasirvatham in Tamil which means Blessing. It
+                        is the food chain brand of Gateway Ventures, a trusted
+                        company for its quality and service in various fields of
+                        the business world for over 30 years.
+                      </p>
+                      <p>
+                        From 1991 Gateway started supplying raw materials for
+                        the food industry and exporting various food items to
+                        Russia and other CIS countries and is a blessing to all
+                        its consumers.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://btpvl.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Borsch</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 79.svg"
+                        alt="borsch"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <!-- work -->
+                  <div class="row works2-row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 80.svg"
+                        alt="gvhts"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">hts</h4>
+                      <p>
+                        Gateway, is a recognized world leader in General
+                        supplies, services, engineering and fabrication of
+                        industrial products in the field of Oil and Gas, Mining,
+                        power generation, various industrial sectors and
+                        resorts.
+                      </p>
+                      <p>
+                        With its head office in Texas USA with a presence in 16
+                        locations in 5 continents, Gateway has worked with most
+                        major oil and gas companies and contractors, bringing
+                        international production, service and supply procedures
+                        and standards to the most far flung energy markets of
+                        the world.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://gvhts.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Gateway Hospitality</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- work -->
+                  <div class="row works-row align-items-center">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <h4 class="yellow">OGS</h4>
+                      <p>
+                        With over 15 years of experience in the Oil andGas services sector, Gateway OGS provides leading edge services like Hydraulics, Pneumatics, Welding, Protective coatings, Equipment rental and many others through it’s presence in 5 continents.
+                      </p>
+                      <p>
+                        Through our highly trained and experienced crews, technical expertise, fit for purpose equipment and state-of-the-art services, we enable world’s Oil and Gas industries, from small independents to majors, get the most out of your businesses. We pave way for advancements in the Oil and Gas services industry.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://gatewayogs.com/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>Visit Gateway Oil & Gas</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/Group 89.svg"
+                        alt="borsch"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <!-- work -->
+                </div>
+              </section>
+              <!-- /works -->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-profile"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+              tabindex="0"
+            >
+              <!-- content -->
+              <section id="branding">
+                <div class="container mt-100">
+                  <div class="row branding">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/760 1.svg"
+                        alt="aassi"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                      <h3 class="purple">Latest works</h3>
+                      <h4 class="yellow">AASSI</h4>
+                      <p class="my-3">
+                        AASSI is Aasirvatham in Tamil which means Blessing. It
+                        is the food chain brand of Gateway Ventures, a trusted
+                        company for its quality and service in various fields of
+                        the business world for over 30 years
+                      </p>
+
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://aassi.in/"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>View website</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-50">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/Ajowain 1.svg"
+                        alt="aassi"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/540 1.svg"
+                        alt="aassi"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/Ground nut oil 1.svg"
+                        alt="aassi"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/OR7V8F1 1.svg"
+                        alt="aassi"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="ring">
+                    <div class="row branding mt-50 align-items-center">
+                      <div class="col-lg-8 col-md-8 col-sm-12">
+                        <h4 class="yellow">BORSCH</h4>
+                        <p class="my-3">
+                          From 1991 Gateway started supplying raw materials for
+                          the food industry and exporting various food items to
+                          Russia and other CIS countries and is a blessing to
+                          all its consumers.
+                        </p>
+
+                        <div class="d-flex align-items-center c-btn">
+                          <div class="circle"><div class="arrow"></div></div>
+                          <a
+                            href="https://btpvl.com/"
+                            target="_blank"
+                            class="btn card-btn"
+                          >
+                            <span>View website</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12">
+                        <img
+                          src="images/portfolio/branding/761 1.svg"
+                          alt="borsch"
+                          class="img-fluid float-right"
+                        />
+                        <img
+                          src="images/portfolio/branding/ring.svg"
+                          alt="pattern"
+                          class="img-fluid right-ring"
+                        />
+                      </div>
+                    </div>
+                    <div class="row mt-50">
+                      <div class="col-lg-3 col-md-3 col-sm-12">
+                        <img
+                          src="images/portfolio/branding/ring.svg"
+                          alt="pattern"
+                          class="img-fluid left-ring"
+                        />
+
+                        <img
+                          src="images/portfolio/branding/1545 1.svg"
+                          alt="borsch"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12">
+                        <img
+                          src="images/portfolio/branding/538 1.svg"
+                          alt="borsch"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12">
+                        <img
+                          src="images/portfolio/branding/6512 1.svg"
+                          alt="borsch"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12">
+                        <img
+                          src="images/portfolio/branding/OTBT2M0 1.svg"
+                          alt="borsch"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row branding mt-50">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/763 1.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                      <h4 class="yellow">SCAN NOW</h4>
+                      <p class="my-3">
+                        We wanted to bring in new digital way to replace old
+                        paper business card model. We participated in some grand
+                        trade show and got numeric welocme from trade partners
+                        for this digital card. Scan me connects with all your
+                        mates in handy with digital card
+                      </p>
+
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://scannow.me/"
+                          target="_blank"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>View website</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-50 scannow">
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/120 1.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/T-Shirt Mockup 1.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/Notebook Mockup 1.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                      <img
+                        src="images/portfolio/branding/Banner Mockup 1.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- /content -->
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-contact"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+              tabindex="0"
+            >
+              <!-- content -->
+              <section id="portal">
+                <div class="container-fluid container-xxl mt-100">
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/portal/Group 83.svg"
+                        alt="qrcodescanner"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                      <h3 class="purple">Latest works</h3>
+                      <h4 class="yellow">QR Code for Labeling</h4>
+                      <p class="my-3">
+                        Tailor QR codes with logos, colors, and design to match your brand. Track and measure engagement with your QR codes.
+                      </p>
+                      <p class="my-3">
+                        Create QR codes for product labels, packaging, and marketing materials.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://qrcode.aassiproducts.com/#/login"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>View website</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                      <h4 class="yellow">Customer Relationship Management (CRM)</h4>
+                      <p class="my-3">
+                        Discover the potential of our CRM system to enhance customer engagement.
+                      </p>
+                      <p class="my-3">
+                        Explore our CRM solution and see how it can drive growth for your business.
+                      </p>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/portal/Group 84.svg"
+                        alt="crm"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/portal/Group 85.svg"
+                        alt="scannow"
+                        class="img-fluid"
+                      />
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                      <h4 class="yellow">Scan Now</h4>
+                      <p class="my-3">
+                        We wanted to bring in new digital way to replace old
+                        paper business card model. We participated in some grand
+                        trade show and got numeric welocme from trade partners
+                        for this digital card.
+                      </p>
+                      <p class="my-3">
+                        Scan me connects with all your mates in handy with
+                        digital card.
+                      </p>
+
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://scannow.me/"
+                          target="_blank"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>View Website</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                      <h4 class="yellow">iTree Tag</h4>
+                      <p class="my-3">
+                        Discover how our tree tracking tool can revolutionize tree management. Start using our tool to track and protect your trees.
+                      </p>
+                      <p class="my-3">
+                        iTree Tag uses GPS technology to locate and monitor trees. itreetag supports tree inventory and maintenance planning.
+                      </p>
+                 
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a
+                          href="https://tree.itreetag.com/#/login"
+                          target="_blank"
+                          target="_blank"
+                          class="btn card-btn"
+                        >
+                          <span>View Website</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                      <img
+                        src="images/portfolio/portal/Group 87.svg"
+                        alt="itreetag"
+                        class="img-fluid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- /content -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- /portfolio tabs -->
+
+      <!-- footer -->
+      <section id="footer" class="mt-100">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <img src="images/Asset 20.png" alt="logo" class="img-fluid w-50" />
+              <p class="py-3 w-75 footer-para">
+                The goal is to explore various possibilities and solutions
+                before settling on a final design.
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Connect</h4>
+              <ul>
+                <div class="nav-ring">
+                  <li class="mb-3"><a href="career.html">Career</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+                <div class="nav-ring">
+                  <li><a href="contact.html">Contact</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Talk</h4>
+              <ul>
+                <li>
+                  <img
+                    src="images/icons/download (2).svg"
+                    alt="mail-icon"
+                    class="img-fluid"
+                  />
+                  <p>
+                    <a href="mailto:hr@five2supports.com"
+                      >hr@five2supports.com</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/icons/download (1).svg"
+                    alt="phone-icon"
+                    class="img-fluid"
+                  />
+                  <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
+                </li>
+                <li>
+                  <img src="images/icons/Vector.svg" alt="map-icon" class="img-fluid" />
+                  <p>
+                    Door No.2, Thendral Nagar,<br />
+                    St.Thomas Road,Near <br />
+                    Srinivasa Nagar, <br />Tirunelveli – 627011.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Social connect</h4>
+              <ul class="d-flex">
+                <li>
+                  <a
+                    href="https://instagram.com/five_2_supports?igshid=MzRlODBiNWFlZA=="
+                    target="_blank"
+                    ><i class="bi bi-instagram me-3"></i
+                  ></a>
+                </li>
+                <li><i class="bi bi-linkedin"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /footer -->
+    </div>
+    <!-- /main container -->
+
+    <!-- script files -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

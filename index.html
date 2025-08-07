@@ -1,1175 +1,685 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Basic Page Needs
-================================================== -->
-    <meta charset="utf-8" />
-    <title>Charis Communication Pvt Ltd</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>FiveTwo Digital Solutions</title>
+    <!-- FAVICON FILES -->
 
-    <!-- Mobile Specific Metas
-================================================== -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Charis Communication Pvt Ltd" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    <link href="ico/favicon.png" rel="shortcut icon" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <!-- spacing css -->
+    <link rel="stylesheet" href="css/rs-spacing.css" />
+    <!-- boostrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
-    <!-- Favicon
-================================================== -->
-    <link rel="icon" type="image/png" href="images/favicon.png" />
-
-    <!-- CSS
-================================================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
-    <!-- Animation -->
-    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
-    <!-- slick Carousel -->
-    <link rel="stylesheet" href="plugins/slick/slick.css" />
-    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
-    <!-- Colorbox -->
-    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
-    <!-- Template styles-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- owl css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href=" css/style.css" id="css-file" />
   </head>
-
   <body>
-    <div class="body-inner">
-      <div id="top-bar" class="top-bar">
+    <div class="loader-container">
+      <span class="loader"></span>
+    </div>
+    <!-- main container -->
+    <div class="container-fluid full-content">
+      <!-- header -->
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-md">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-10 col-md-10">
-              <ul class="top-info text-center text-md-left">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item nav-ring">
+                <a class="nav-link active"
+                  >Home
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="about.html"
+                  >About
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="services.html"
+                  >Services
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="portfolio.html"
+                  >Portfolio
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="career.html"
+                  >Career
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+              <li class="nav-item nav-ring">
+                <a class="nav-link" href="contact.html"
+                  >Contact
+                  <div class="circle-ring"></div
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /header -->
+      <!-- banner -->
+      <section id="home-banner">
+        <div class="container banner">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="d-flex align-items-center">
+                <span class="line"></span>
+                <h6 class="m-0">Five Two Digitals</h6>
+              </div>
+
+              <h2 class="yellow">Digital Solutions</h2>
+              <h4>for your business</h4>
+
+              <p>
+                We Develop Outstanding Designs and Anchor Technology to
+                establish your digital presence stand out from the crowd
+                seamlessly
+              </p>
+
+              <div class="wave-btn">
+                <a href="portfolio.html">
+                  <span>Explore Works</span>
+                  <div class="wave"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 img-banner">
+              <img
+                src="images/Group 41.png"
+                alt=""
+                class="img-fluid banner-img"
+              />
+              <img src="images/Comp1.svg" alt="animated" class="img-fluid img-1" />
+              <img src="images/Comp2.svg" alt="animated" class="img-fluid img-2" />
+              <img src="images/Comp3.svg" alt="animated" class="img-fluid img-3" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /banner -->
+      <!-- slider section -->
+      <section id="slider">
+        <div class="container-fluid container-xxl">
+          <div class="row pt-50 pb-100 slider-row">
+            <div class="col-lg-4 col-md-4 col-sm-12 pl-85">
+              <h4 class="purple">Latest</h4>
+              <h2 class="white">Works</h2>
+              <p>
+                We specialize in crafting web experiences that captivate, engage, and drive results.
+              </p>
+              <p>
+                Check out some of our recent projects and see the transformative power of our work.
+              </p>
+              <div class="wave-btn2">
+                <a href="portfolio.html" class="text-center">
+                  <span>Portfolio</span>
+                  <div class="wave"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/branding.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Branding</h5>
+
+                      <p class="card-text">
+                        We are a diverse team of creatives, engineers, and
+                        sustainability advocates and a go-to source for
+                        cutting-edge technology solutions.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/ui.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">UI/UX Design</h5>
+                      <p class="card-text">
+                        Visually stunning and user-focused designs that
+                        captivate your audience and empower businesses with
+                        cutting-edge web solutions
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/webdev.png"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">
+                        Tailored web solutions that are as unique as your brand.Engaging and responsive designs that leave a lasting impression.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/ecomsolution.png"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">E-Commerce Solutions</h5>
+                      <p class="card-text">
+                        Boost your online business with seamless e-commerce integration.We excel in building cutting-edge software solutions that empower your business.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/app.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">App development</h5>
+                      <p class="card-text">
+                        We specialize in creating iOS and Android apps that are
+                        tailored to your specific needs and designed for optimal
+                        user experience.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/ios.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">IOS Apps</h5>
+                      <p class="card-text">
+                        We're passionate about bringing your digital dreams to
+                        life. We specialize in creating tailored ios solutions
+                        that improve your business strategy
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/cms.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Custom CMS</h5>
+                      <p class="card-text">
+                        Empower your team to manage content easily with a
+                        user-friendly CMS for exceptional results on your
+                        business.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/java.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Hybrid Apps</h5>
+                      <p class="card-text">
+                        Extend your reach with mobile applications for iOS and
+                        Android to meet your unique requirements.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card">
+                    <img
+                      src="images/card/JPEG/e-com.jpg"
+                      class="card-img-top"
+                      alt="card-image"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">eCommerce</h5>
+                      <p class="card-text">
+                        Create seamless online shopping experiences that drive
+                        sales. We offer a comprehensive range of e-commerce
+                        services.
+                      </p>
+                      <div class="d-flex align-items-center c-btn">
+                        <div class="circle"><div class="arrow"></div></div>
+                        <a href="portfolio.html" class="btn card-btn">
+                          <span>Find out more</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- nav -->
+
+              <!-- /nav -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /slider section -->
+
+      <!-- diff section -->
+      <section id="difference">
+        <div class="container-fluid container-xxl">
+          <div class="row diff-row align-items-center">
+            <div class="col-lg-6 col-md-7 col-sm-12">
+              <div class="grid">
+                <div class="box">
+                  <img
+                    src="images/bg/Rectangle 9.png"
+                    alt="grid-img"
+                    class="img-fluid"
+                  />
+                  <img
+                    src="images/bg/Polygon 1.svg"
+                    alt="grid-img"
+                    class="img-fluid polygon-1"
+                  />
+                  <div class="grid-text1">
+                    <img
+                      src="images/icons/idea (1).svg"
+                      alt="grid-img"
+                      class="img-fluid w-25 my-3"
+                    />
+                    <p class="mb-0">
+                      The goal is to explore various possibilities and solutions
+                      before settling on a final design.
+                    </p>
+                    <h3>We Ideate</h3>
+                  </div>
+                </div>
+                <div class="box">
+                  <img
+                    src="images/bg/high-angle-hands-holding-paper 1 (1).svg"
+                    alt="grid-img"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="box">
+                  <img
+                    src="images/bg/html-system-website-concept 1.svg"
+                    alt="grid-img"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="box">
+                  <img
+                    src="images/bg/yellow-arrow.svg"
+                    alt="grid-img"
+                    class="img-fluid polygon-2"
+                  />
+                  <img
+                    src="images/bg/Rectangle 9.svg"
+                    alt="grid-img"
+                    class="img-fluid"
+                  />
+                  <div class="grid-text2">
+                    <img
+                      src="images/icons/code (1).svg"
+                      alt="grid-img"
+                      class="img-fluid w-25 my-3"
+                    />
+                    <p class="mb-0">
+                      Coding efficiently is essential for writing high-quality
+                      code that is maintainable, performant, and minimizes the
+                      risk of bugs.
+                    </p>
+                    <h3>We Implement</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12">
+              <h4 class="purple">How we make a</h4>
+              <h2 class="yellow">difference</h2>
+              <p>
+                Five Two Digitals, established his IT wing in 2016 with a small
+                team consisting of young talents, constructed the superior
+                service provider of website design, development and digital
+                marketing.
+              </p>
+              <p>
+                The team was small, but the vision of the group was big. It took
+                just about a few months to engage more and more people in this
+                unconquerable organization that stands out today seeing
+                excellence, reliability, and creativity.
+              </p>
+              <div class="wave-btn">
+                <a href="about.html" class="text-center">
+                  <span>About us</span>
+                  <div class="wave"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /diff section -->
+      <!-- join -->
+
+      <section id="join">
+        <div class="container-fluid container-xxl">
+          <div class="row join-row pt-150">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img
+                src="images/bg/Group 54.png"
+                alt="pattern"
+                class="img-fluid mask-3"
+              />
+              <h4 class="purple pb-20">
+                <span class="yellow">Join</span> our passionate team
+              </h4>
+              <p>
+                We're more than just a company. We're a family of passionate
+                individuals committed to providing digital solutions.
+              </p>
+              <p>
+                We believe in fostering a diverse and inclusive environment
+                where every team member has the opportunity to thrive and
+                contribute to our shared success.
+              </p>
+              <p>
+                We always looking for talented peoples, so let's work together
+              </p>
+              <div class="wave-btn">
+                <a href="career.html" class="text-center">
+                  <span>Careers</span>
+                  <div class="wave"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img
+                src="images/bg/Mask group.png"
+                alt="pattern"
+                class="img-fluid mask-1"
+              />
+              <img
+                src="images/bg/girl.png"
+                alt="girl-img"
+                class="img-fluid w-50 girl-img"
+              />
+              <img src="images/Group 31.svg" alt="animated" class="img-fluid join-1" />
+              <img src="images/Group 26.svg" alt="animated" class="img-fluid join-2" />
+              <img src="images/Group 25.svg" alt="animated" class="img-fluid join-3" />
+              <img src="images/Group 27.svg" alt="animated" class="img-fluid join-4" />
+              <img src="images/Group 28.svg" alt="animated" class="img-fluid join-5" />
+              <img src="images/Group 30.svg" alt="animated" class="img-fluid join-6" />
+              <img
+                src="images/bg/Ellipse 5389.png"
+                alt="pattern"
+                class="img-fluid mask-2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /join -->
+
+      <!-- contact -->
+      <section id="index-contact">
+        <div class="container">
+          <div class="contact-heading text-center mt-100">
+            <h3 class="purple">To make websites you always wanted</h3>
+            <h3 class="yellow">Let's talk about it!</h3>
+            <div class="wave-btn">
+              <a href="contact.html" class="text-center">
+                <span>Contact</span>
+                <div class="wave"></div>
+              </a>
+            </div>
+          </div>
+          <div class="row circle-row">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div class="icon-bg water-wave">
+                <img
+                  src="images/icons/vector3.svg"
+                  alt="phone-icon"
+                  class="img-fluid icon"
+                />
+              </div>
+              <h4 class="yellow fw-bold">CALL US</h4>
+              <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
+            </div>
+            <!--  -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div class="icon-bg water-wave">
+                <img
+                  src="images/icons/Vector.svg"
+                  alt="map-icon"
+                  class="img-fluid icon"
+                />
+              </div>
+              <h4 class="yellow fw-bold">VISIT US</h4>
+              <p>
+                Door No.2, Thendral Nagar, <br />St.Thomas Road,Near Srinivasa
+                Nagar, <br />Tirunelveli – 627011.
+              </p>
+            </div>
+            <!--  -->
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div class="icon-bg water-wave">
+                <img
+                  src="images/icons/vector2.svg"
+                  alt="mail-icon"
+                  class="img-fluid icon"
+                />
+              </div>
+              <h4 class="yellow fw-bold">MAIL US</h4>
+              <p>
+                <a href="mailto:hr@five2supports.com">hr@five2supports.com</a>
+              </p>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+
+      <!-- footer -->
+      <section id="footer" class="mt-100">
+        <img src="images/bg/Group 55.png" alt="pattern" class="img-fluid mask-4" />
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <img src="images/Asset 20.png" alt="logo" class="img-fluid w-50" />
+              <p class="py-3 w-75 footer-para footer-para">
+                The goal is to explore various possibilities and solutions
+                before settling on a final design.
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Connect</h4>
+              <ul>
+                <div class="nav-ring">
+                  <li class="mb-3"><a href="career.html">Career</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+                <div class="nav-ring">
+                  <li><a href="contact.html">Contact</a></li>
+                  <div class="circle-ring"></div>
+                </div>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Let's Talk</h4>
+              <ul>
                 <li>
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p class="info-text">
-                    Charis Communication Pvt Ltd, Chennai - India
+                  <img
+                    src="images/icons/download (2).svg"
+                    alt="mail-icon"
+                    class="img-fluid"
+                  />
+                  <p>
+                    <a href="mailto:hr@five2supports.com"
+                      >hr@five2supports.com</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="images/icons/download (1).svg"
+                    alt="phone-icon"
+                    class="img-fluid"
+                  />
+                  <p><a href="callto:+91 7305905277">+91 7305905277</a></p>
+                </li>
+                <li>
+                  <img src="images/icons/Vector.svg" alt="map-icon" class="img-fluid" />
+                  <p>
+                    Door No.2, Thendral Nagar,<br />
+                    St.Thomas Road,Near <br />
+                    Srinivasa Nagar, <br />Tirunelveli – 627011.
                   </p>
                 </li>
               </ul>
             </div>
-            <!--/ Top info end -->
-          </div>
-          <!--/ Content row end -->
-        </div>
-        <!--/ Container end -->
-      </div>
-      <!--/ Topbar end -->
-      <!-- Header start -->
-      <header id="header" class="header-one">
-        <div class="bg-white">
-          <div class="container">
-            <div class="logo-area">
-              <div class="row align-items-center">
-                <div
-                  class="logo col-lg-5 text-center text-lg-left mb-3 mb-md-5 mb-lg-0"
-                >
-                  <a class="d-block" href="index.html">
-                    <img
-                      loading="lazy"
-                      src="images/logo.png"
-                      alt="Charis Communication"
-                    />
-                    <h1>Charis <span>Communication</span></h1>
-                  </a>
-                </div>
-                <!-- logo end -->
-
-                <div class="col-lg-7 header-right">
-                  <ul class="top-info-box">
-                    <li>
-                      <div class="info-box">
-                        <div class="info-box-content">
-                          <p class="info-box-title">Call Us</p>
-                          <p class="info-box-subtitle">
-                            <a href="callto:(+91) 44 46222777"
-                              >(+91) 44 46222777</a
-                            >
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="last">
-                      <div class="info-box last">
-                        <div class="info-box-content">
-                          <p class="info-box-title">Email Us</p>
-                          <p class="info-box-subtitle">
-                            <a href="mailto:info@ccpvl.com">info@ccpvl.com</a>
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="header-get-a-quote">
-                      <a class="btn btn-primary" href="contact.html"
-                        >Get A Quote</a
-                      >
-                    </li>
-                  </ul>
-                  <!-- Ul end -->
-                </div>
-                <!-- header right end -->
-              </div>
-              <!-- logo area end -->
-            </div>
-            <!-- Row end -->
-          </div>
-          <!-- Container end -->
-        </div>
-
-        <div class="site-navigation">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-dark p-0">
-                  <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse"
-                    aria-controls="navbar-collapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div id="navbar-collapse" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <a href="index.html" class="nav-link">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a
-                          href="#"
-                          class="nav-link dropdown-toggle"
-                          data-toggle="dropdown"
-                          >About Us <i class="fa fa-angle-down"></i
-                        ></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="about.html">Who we are</a></li>
-                          <li>
-                            <a href="unique.html">What Makes us Unique</a>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="products.html" class="nav-link">Products</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a href="services.html" class="nav-link">Services</a>
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
-              <!--/ Col end -->
-            </div>
-            <!--/ Row end -->
-
-            <div class="nav-search">
-              <span id="search"><i class="fa fa-search"></i></span>
-            </div>
-            <!-- Search end -->
-
-            <div class="search-block" style="display: none">
-              <label for="search-field" class="w-100 mb-0">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="search-field"
-                  placeholder="Type what you want and enter"
-                />
-              </label>
-              <span class="search-close">&times;</span>
-            </div>
-            <!-- Site search end -->
-          </div>
-          <!--/ Container end -->
-        </div>
-        <!--/ Navigation end -->
-      </header>
-      <!--/ Header end -->
-
-      <div class="banner-carousel banner-carousel-1 mb-0">
-        <div
-          class="banner-carousel-item"
-          style="background-image: url(images/slider-main/bg1.jpg)"
-        >
-          <div class="slider-content">
-            <div class="container h-100">
-              <div class="row align-items-center h-100">
-                <div class="col-md-12 text-center">
-                  <h2 class="slide-title" data-animation-in="slideInLeft">
-                    Effective and Profitable
-                  </h2>
-                  <h3 class="slide-sub-title" data-animation-in="slideInRight">
-                    Business Solutions
-                  </h3>
-                  <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                    <a href="services.html" class="slider btn btn-primary"
-                      >Our Services</a
-                    >
-                    <a href="contact.html" class="slider btn btn-primary border"
-                      >Contact Now</a
-                    >
-                  </p>
-                </div>
-              </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footer-col">
+              <h4 class="yellow">Social connect</h4>
+              <ul class="d-flex">
+                <li>
+                  <a
+                    href="https://instagram.com/five_2_supports?igshid=MzRlODBiNWFlZA=="
+                    target="_blank"
+                    ><i class="bi bi-instagram me-3"></i
+                  ></a>
+                </li>
+                <li><i class="bi bi-linkedin"></i></li>
+              </ul>
             </div>
           </div>
         </div>
-
-        <div
-          class="banner-carousel-item"
-          style="background-image: url(images/slider-main/bg2.jpg)"
-        >
-          <div class="slider-content text-left">
-            <div class="container h-100">
-              <div class="row align-items-center h-100">
-                <div class="col-md-12">
-                  <h2 class="slide-title-box" data-animation-in="slideInDown">
-                    Sustainable and Fruitful
-                  </h2>
-                  <h3 class="slide-title" data-animation-in="fadeIn">
-                    Strategies for Business
-                  </h3>
-                  <p data-animation-in="slideInRight">
-                    <a
-                      href="services.html"
-                      class="slider btn btn-primary border"
-                      >Our Services</a
-                    >
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="banner-carousel-item"
-          style="background-image: url(images/slider-main/bg3.jpg)"
-        >
-          <div class="slider-content text-right">
-            <div class="container h-100">
-              <div class="row align-items-center h-100">
-                <div class="col-md-12">
-                  <h2 class="slide-title" data-animation-in="slideInDown">
-                    World Class Service
-                  </h2>
-                  <h3 class="slide-sub-title" data-animation-in="fadeIn">
-                    When Service Matters
-                  </h3>
-                  <h3 class="slide-sub-title" data-animation-in="slideInLeft">
-                    Your Choice is Simple
-                  </h3>
-                  <div data-animation-in="slideInLeft">
-                    <a
-                      href="services.html"
-                      class="slider btn btn-primary"
-                      aria-label="contact-with-us"
-                      >Our Services</a
-                    >
-                    <a
-                      href="about.html"
-                      class="slider btn btn-primary border"
-                      aria-label="learn-more-about-us"
-                      >Learn more</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="call-to-action-box no-padding">
-        <div class="container">
-          <div class="action-style-box">
-            <div class="row align-items-center">
-              <div class="col-md-8 text-center text-md-left">
-                <div class="call-to-action-text">
-                  <h3 class="action-title">
-                    Perception and performance go hand in hand with us
-                  </h3>
-                </div>
-              </div>
-              <!-- Col end -->
-              <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
-                <div class="call-to-action-btn">
-                  <a class="btn btn-dark" href="#">Request Quote</a>
-                </div>
-              </div>
-              <!-- col end -->
-            </div>
-            <!-- row end -->
-          </div>
-          <!-- Action style box -->
-        </div>
-        <!-- Container end -->
       </section>
-      <!-- Action end -->
-
-      <section id="ts-features" class="ts-features">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="ts-intro">
-                <h2 class="into-title">About Us</h2>
-                <h3 class="into-sub-title">We Are Charis Communication</h3>
-                <p>
-                  A company with impeccable efficiency and expertise,
-                  established in 2012 and led by the vision to deliver an array
-                  of products and services.
-                </p>
-                <p>
-                  Charis Communication Pvt Ltd. sets out itself to be a leading
-                  company dedicated to the craft of delivering a vast assortment
-                  of products and services. Here, we embrace a number of
-                  specialities in the conveyance of commercial and building
-                  products and services. We create standards by going beyond for
-                  our customers using our bespoke logistics network and
-                  value-added service offering.
-                </p>
-                <p>
-                  By virtually integrating and aligning the process along with
-                  our network base and market sensitivity, our vast connection
-                  is able to withstand the changes and demand of our client thus
-                  strengthening our Supply Chain strategically.
-                </p>
-              </div>
-              <!-- Intro box end -->
-
-              <div class="gap-20"></div>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="ts-service-box">
-                    <span class="ts-service-icon">
-                      <i class="fas fa-trophy"></i>
-                    </span>
-                    <div class="ts-service-box-content">
-                      <h3 class="service-box-title">
-                        We've Repution for Excellence
-                      </h3>
-                    </div>
-                  </div>
-                  <!-- Service 1 end -->
-                </div>
-                <!-- col end -->
-
-                <div class="col-md-6">
-                  <div class="ts-service-box">
-                    <span class="ts-service-icon">
-                      <i class="fas fa-sliders-h"></i>
-                    </span>
-                    <div class="ts-service-box-content">
-                      <h3 class="service-box-title">We Build Partnerships</h3>
-                    </div>
-                  </div>
-                  <!-- Service 2 end -->
-                </div>
-                <!-- col end -->
-              </div>
-              <!-- Content row 1 end -->
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="ts-service-box">
-                    <span class="ts-service-icon">
-                      <i class="fas fa-thumbs-up"></i>
-                    </span>
-                    <div class="ts-service-box-content">
-                      <h3 class="service-box-title">Guided by Commitment</h3>
-                    </div>
-                  </div>
-                  <!-- Service 1 end -->
-                </div>
-                <!-- col end -->
-
-                <div class="col-md-6">
-                  <div class="ts-service-box">
-                    <span class="ts-service-icon">
-                      <i class="fas fa-users"></i>
-                    </span>
-                    <div class="ts-service-box-content">
-                      <h3 class="service-box-title">A Team of Professionals</h3>
-                    </div>
-                  </div>
-                  <!-- Service 2 end -->
-                </div>
-                <!-- col end -->
-              </div>
-              <!-- Content row 1 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-6 mt-4 mt-lg-0">
-              <h3 class="into-sub-title">What makes us unique</h3>
-              <p>
-                We create value by going beyond for our customers using our
-                bespoke logistics network and value-added service offering
-              </p>
-              <p>
-                We continually enlarge our product and service range to respond
-                to customers in the best possible way.
-              </p>
-
-              <div class="accordion accordion-group" id="our-values-accordion">
-                <div class="card">
-                  <div class="card-header p-0 bg-transparent" id="headingOne">
-                    <h2 class="mb-0">
-                      <button
-                        class="btn btn-block text-left"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        Procurement
-                      </button>
-                    </h2>
-                  </div>
-
-                  <div
-                    id="collapseOne"
-                    class="collapse show"
-                    aria-labelledby="headingOne"
-                    data-parent="#our-values-accordion"
-                  >
-                    <div class="card-body">
-                      We supply everything needed for Construction, Factories,
-                      Computer Hardware & peripherals and Operations &
-                      Maintenance.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header p-0 bg-transparent" id="headingTwo">
-                    <h2 class="mb-0">
-                      <button
-                        class="btn btn-block text-left collapsed"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        Logistics Management
-                      </button>
-                    </h2>
-                  </div>
-                  <div
-                    id="collapseTwo"
-                    class="collapse"
-                    aria-labelledby="headingTwo"
-                    data-parent="#our-values-accordion"
-                  >
-                    <div class="card-body">
-                      With a detailed plan and implementation for movements of
-                      Cargos via Land, Air and Sea, we are able to provide top
-                      service.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header p-0 bg-transparent" id="headingThree">
-                    <h2 class="mb-0">
-                      <button
-                        class="btn btn-block text-left collapsed"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        Product Distribution
-                      </button>
-                    </h2>
-                  </div>
-                  <div
-                    id="collapseThree"
-                    class="collapse"
-                    aria-labelledby="headingThree"
-                    data-parent="#our-values-accordion"
-                  >
-                    <div class="card-body">
-                      Bringing Products, Goods and Services to the end-user in
-                      the most cost-effective and efficient way in a
-                      well-organized method.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--/ Accordion end -->
-            </div>
-            <!-- Col end -->
-          </div>
-          <!-- Row end -->
-        </div>
-        <!-- Container end -->
-      </section>
-      <!-- Feature are end -->
-
-      <section id="ts-service-area" class="ts-service-area pb-0">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-12">
-              <h2 class="section-title">We Are Specialists In</h2>
-              <h3 class="section-sub-title">What We Do</h3>
-            </div>
-          </div>
-          <!--/ Title row end -->
-
-          <div class="row">
-            <div class="col-lg-4">
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon1.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Hydraulics</a>
-                  </h3>
-                  <p>
-                    Specialized in the business of Hydraulic hose, fittings,
-                    valves, pumps
-                  </p>
-                </div>
-              </div>
-              <!-- Service 1 end -->
-
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon2.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Fiber Optics Cables</a>
-                  </h3>
-                  <p>
-                    Enhances your network's reliability & functionality and
-                    lower operational cost. High-quality Fiber Optical Cables
-                  </p>
-                </div>
-              </div>
-              <!-- Service 2 end -->
-
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon3.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Pumps</a>
-                  </h3>
-                  <p>
-                    The full range of pumps and pump solutions. Efficient,
-                    reliable, and sustainable
-                  </p>
-                </div>
-              </div>
-              <!-- Service 3 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-4 text-center">
-              <img
-                loading="lazy"
-                class="img-fluid"
-                src="images/services/service-center.jpg"
-                alt="service-avater-image"
-              />
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon4.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Electrical & Electronic Goods</a>
-                  </h3>
-                  <p>
-                    We serve all electronic and electrical goods with electrical
-                    services and maintenance works
-                  </p>
-                </div>
-              </div>
-              <!-- Service 4 end -->
-
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon5.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Industrial Goods</a>
-                  </h3>
-                  <p>
-                    Physical components of a computer and its peripherals ,
-                    including fans, hard drives, keyboards and printers
-                  </p>
-                </div>
-              </div>
-              <!-- Service 5 end -->
-
-              <div class="ts-service-box d-flex">
-                <div class="ts-service-box-img">
-                  <img
-                    loading="lazy"
-                    src="images/icon-image/service-icon6.png"
-                    alt="service-icon"
-                  />
-                </div>
-                <div class="ts-service-box-info">
-                  <h3 class="service-box-title">
-                    <a href="services.html">Wastewater Treatment Plant</a>
-                  </h3>
-                  <p>
-                    Design of sewage treatment plants, Supply of Equipment,
-                    Supply of Consumables
-                  </p>
-                </div>
-              </div>
-              <!-- Service 6 end -->
-            </div>
-            <!-- Col end -->
-          </div>
-          <!-- Content row end -->
-        </div>
-        <!--/ Container end -->
-      </section>
-      <!-- Service end -->
-      <section class="subscribe no-padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="subscribe-call-to-acton">
-                <h3>Can We Help?</h3>
-                <h4>(+91) 44 46222777</h4>
-              </div>
-            </div>
-            <!-- Col end -->
-
-            <div class="col-md-8">
-              <div class="ts-newsletter row align-items-center">
-                <div class="col-md-8 newsletter-introtext">
-                  <p class="text-white">
-                    Our reputation is built on trust from the service we have
-                    offered to our customers and the ability to guide them to
-                    the right product
-                  </p>
-                </div>
-              </div>
-              <!-- Newsletter end -->
-            </div>
-            <!-- Col end -->
-          </div>
-          <!-- Content row end -->
-        </div>
-        <!--/ Container end -->
-      </section>
-      <!--/ subscribe end -->
-
-      <section id="project-area" class="project-area solid-bg">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-lg-12">
-              <h2 class="section-title">Work of Excellence</h2>
-              <h3 class="section-sub-title">Recent Projects</h3>
-            </div>
-          </div>
-          <!--/ Title row end -->
-
-          <div class="row">
-            <div class="col-12">
-              <div class="shuffle-btn-group">
-                <label class="active" for="all">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="all"
-                    value="all"
-                    checked="checked"
-                  />Show All
-                </label>
-                <label for="hyd">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="hyd"
-                    value="hyd"
-                  />Hydraulics
-                </label>
-
-                <label for="foc">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="foc"
-                    value="foc"
-                  />Fiber Optic Cables
-                </label>
-                <label for="pumps">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="pumps"
-                    value="pumps"
-                  />Pumps
-                </label>
-                <label for="igoods">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="igoods"
-                    value="igoods"
-                  />Industrial Goods
-                </label>
-                <label for="wwtp">
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="wwtp"
-                    value="wwtp"
-                  />Wastewater Treatment Plant
-                </label>
-              </div>
-              <!-- project filter end -->
-
-              <div class="row shuffle-wrapper">
-                <div class="col-1 shuffle-sizer"></div>
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["hyd","healthcare"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project1.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project1.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project1.jpg"
-                            >Hose, Fittings, Valves, Pumps</a
-                          >
-                        </h3>
-                        <p class="project-cat">Hydraulics</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 1 end -->
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["foc","healthcare"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project2.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project2.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project2.jpg"
-                            >All Types of Fiber Optics Cables</a
-                          >
-                        </h3>
-                        <p class="project-cat">Fiber Optics Cables</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 2 end -->
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["pumps","pumps"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project3.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project3.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project3.jpg"
-                            >Water Pumps, Sewage pumps</a
-                          >
-                        </h3>
-                        <p class="project-cat">Pumps</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 3 end -->
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["igoods"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project4.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project4.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project4.jpg"
-                            >Cables & Servers, Computer Hardware &
-                            Peripherals</a
-                          >
-                        </h3>
-                        <p class="project-cat">Electrical & Electronic Goods</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 4 end -->
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["wwtp"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project5.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project5.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project5.jpg"
-                            >Oil & Gas, Construction Equipment, All Industrial
-                            Equipment</a
-                          >
-                        </h3>
-                        <p class="project-cat">Industrial Goods</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 5 end -->
-
-                <div
-                  class="col-lg-4 col-sm-6 shuffle-item"
-                  data-groups='["infrastructure"]'
-                >
-                  <div class="project-img-container">
-                    <a
-                      class="gallery-popup"
-                      href="images/projects/project6.jpg"
-                      aria-label="project-img"
-                    >
-                      <img
-                        class="img-fluid"
-                        src="images/projects/project6.jpg"
-                        alt="project-img"
-                      />
-                      <span class="gallery-icon"
-                        ><i class="fa fa-plus"></i
-                      ></span>
-                    </a>
-                    <div class="project-item-info">
-                      <div class="project-item-info-content">
-                        <h3 class="project-item-title">
-                          <a
-                            class="gallery-popup"
-                            href="images/projects/project6.jpg"
-                            >Design, Supply of Equipment, Supply of
-                            Consumables</a
-                          >
-                        </h3>
-                        <p class="project-cat">Wastewater Treatment Plant</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- shuffle item 6 end -->
-              </div>
-              <!-- shuffle end -->
-            </div>
-
-            <div class="col-12">
-              <div class="general-btn text-center">
-                <a class="btn btn-primary" href="products.html"
-                  >View All Projects</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Content row end -->
-        </div>
-        <!--/ Container end -->
-      </section>
-      <!-- Project area end -->
-
-      <footer id="footer" class="footer bg-overlay">
-        <div class="footer-main">
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-lg-4 col-md-6 footer-widget footer-about">
-                <h3 class="widget-title">About Us</h3>
-                <img
-                  loading="lazy"
-                  width="200px"
-                  class="footer-logo"
-                  src="images/footer-logo.png"
-                  alt="Charis Communication"
-                />
-                <p>
-                  Charis Communication Pvt Ltd is intent on setting up a system
-                  of getting customers the products and services they require.
-                </p>
-                <div class="footer-social">
-                  <ul>
-                    <li>
-                      <a
-                        title="Facebook"
-                        target="_blank"
-                        href="https://www.facebook.com/chariscommunication/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-facebook-f"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Twitter"
-                        target="_blank"
-                        href="https://twitter.com/charisasp"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-twitter"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Instagram"
-                        target="_blank"
-                        href="https://www.instagram.com/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-instagram"></i
-                        ></span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        title="Linkdin"
-                        target="_blank"
-                        href="https://www.linkedin.com/company/charis-communication-private-limited/about/"
-                      >
-                        <span class="social-icon"
-                          ><i class="fab fa-linkedin"></i
-                        ></span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- Footer social end -->
-              </div>
-              <!-- Col end -->
-
-              <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-                <h3 class="widget-title">Get in Touch</h3>
-                <div class="working-hours">
-                  CHARIS COMMUNICATION PRIVATE LIMITED<br />
-                  No 838, 89 th Street, 13 th Sector, <br />KK Nagar, Chennai
-                  600 078,<br />Tamilnadu, India.<br />
-                  <br /><i class="fa fa-phone"></i> : +91 44 46222777<br /><i
-                    class="fa fa-envelope"
-                  ></i>
-                  : info@ccpvl.com
-                </div>
-              </div>
-              <!-- Col end -->
-
-              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-                <h3 class="widget-title">Services</h3>
-                <ul class="list-arrow">
-                  <li><a href="services.html">Hydraulics</a></li>
-                  <li><a href="services.html">Fiber Optics Cables</a></li>
-                  <li><a href="services.html">Pumps</a></li>
-                  <li>
-                    <a href="services.html">Electrical & Electronic Goods</a>
-                  </li>
-                  <li><a href="services.html">Industrial Goods</a></li>
-                  <li>
-                    <a href="services.html">Wastewater Treatment Plant</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- Col end -->
-            </div>
-            <!-- Row end -->
-          </div>
-          <!-- Container end -->
-        </div>
-        <!-- Footer main end -->
-
-        <div class="copyright">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-6">
-                <div class="copyright-info text-center text-md-left">
-                  <span
-                    >Copyright &copy;
-                    <script>
-                      document.write(new Date().getFullYear());
-                    </script>
-                    , Charis Communication Pvt Ltd
-                  </span>
-                </div>
-              </div>
-            </div>
-            <!-- Row end -->
-
-            <div
-              id="back-to-top"
-              data-spy="affix"
-              data-offset-top="10"
-              class="back-to-top position-fixed"
-            >
-              <button class="btn btn-primary" title="Back to Top">
-                <i class="fa fa-angle-double-up"></i>
-              </button>
-            </div>
-          </div>
-          <!-- Container end -->
-        </div>
-        <!-- Copyright end -->
-      </footer>
-      <!-- Footer end -->
-
-      <!-- Javascript Files
-  ================================================== -->
-
-      <!-- initialize jQuery Library -->
-      <script src="plugins/jQuery/jquery.min.js"></script>
-      <!-- Bootstrap jQuery -->
-      <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
-      <!-- Slick Carousel -->
-      <script src="plugins/slick/slick.min.js"></script>
-      <script src="plugins/slick/slick-animation.min.js"></script>
-      <!-- Color box -->
-      <script src="plugins/colorbox/jquery.colorbox.js"></script>
-      <!-- shuffle -->
-      <script src="plugins/shuffle/shuffle.min.js" defer></script>
-
-      <!-- Google Map API Key-->
-      <!-- <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-        defer
-      ></script> -->
-      <!-- Google Map Plugin-->
-      <script src="plugins/google-map/map.js" defer></script>
-
-      <!-- Template custom -->
-      <script src="js/script.js"></script>
+      <!-- /footer -->
     </div>
-    <!-- Body inner end -->
+    <!-- /main container -->
+
+    <!-- script files -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
